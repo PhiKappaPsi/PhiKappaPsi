@@ -29,6 +29,7 @@ h2 {
 	font-size: 25px;
 	font-weight: bold;
 	position: relative;
+	bottom: 35px;
 	z-index: 1;
 }
 
@@ -38,14 +39,14 @@ h2 {
 
 #main-photo {
 	width: -webkit-fill-available;
-	margin: -350px 0px -175px 0px;
+	margin: -75px 0px 0px 0px;
 	filter: brightness(0.6);
 }
 
 #main-photo-words {
 	text-align: center;
 	position: relative;
-	bottom: 600px;
+	bottom: 500px;
 	color: white;
 }
 
@@ -105,7 +106,7 @@ h2 {
 
 #address {
 	background-color: black;
-	color: white;
+	color: #b7b7b7;
 	text-align: center;
 	padding: 60px;
 }
