@@ -18,6 +18,15 @@ h2 {
 	color: #d73f09;
 }
 
+.container-lg {
+	margin: 0px;
+	max-width: none;
+}
+
+.px-3 {
+	padding: 0px;	
+}
+
 #header {
 	background-color: #d73f09;
 	color: white;
