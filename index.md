@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset = "utf-8">
-		<title>Phi Psi</title>
+		<title>Phi Kappa Psi</title>
 
 		<link rel = "stylesheet" href = "/Users/Matthew/Documents/Written%20work/Professional%20Docs/PhiPsi/Website/style.css" media = "screen">
 		<script src = "/index.js" charset = "utf-8" defer></script>
