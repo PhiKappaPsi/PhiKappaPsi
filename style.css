@@ -77,24 +77,15 @@ h2 {
 	padding: 0% 15% 0% 15%;
 }
 
-#blocks {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 .block {
-	width: 500px;
 	flex-wrap: wrap;
 	text-align: center;
 	margin-bottom: 30px;
 }
 
 .block-photo {
-	width: 500px;
-}
-
-.block-text {
-
+	width: 600px;
 }
 
 #social-media {
