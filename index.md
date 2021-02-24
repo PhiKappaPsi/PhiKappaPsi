@@ -11,7 +11,7 @@
 
 	<body>
 		<header>
-			<div id = "header"><a href = # id = "main-page">PHI KAPPA PSI - OREGON STATE UNIVERSITY</a></div>
+			<div id = "header"><a href = "#" id = "main-page">PHI KAPPA PSI - OREGON STATE UNIVERSITY</a></div>
 		</header>
 		<main>
 			<img id = "main-photo" src="https://images.squarespace-cdn.com/content/v1/55dfc744e4b02e73a0725476/1440733454224-8KJ2NMEFVQZC44MC7ZJD/ke17ZwdGBToddI8pDm48kH6fPBHeuCv_IqswS3Q-9JJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdOuUkzqMGMAnIc_zSfHdni2JC80USpvAXo1WjE8CapyxMLawJN1msShJFOhJkkAfw/PhiPsiChapterhouse.jpg">
