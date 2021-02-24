@@ -44,14 +44,14 @@ h2 {
 
 #main-photo {
 	width: -webkit-fill-available;
-	margin: -75px 0px 0px 0px;
+	margin: -300px 0px -50px 0px;
 	filter: brightness(0.6);
 }
 
 #main-photo-words {
 	text-align: center;
 	position: relative;
-	bottom: 500px;
+	bottom: 560px;
 	color: white;
 }
 
@@ -91,6 +91,10 @@ h2 {
 
 .block-photo {
 	width: 600px;
+}
+
+.block-text {
+	padding: 0px 100px 0px 100px;	
 }
 
 #social-media {
