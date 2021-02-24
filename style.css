@@ -24,7 +24,7 @@ h2 {
 }
 
 .px-3 {
-	padding: 0px;	
+	padding: 0px !important;	
 }
 
 #header {
