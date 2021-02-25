@@ -97,6 +97,11 @@ h2 {
 	padding: 0px 15% 0px 15%;	
 }
 
+footer {
+	position: relative;
+	top: 32px;
+}
+
 #social-media {
 	background-color: #d73f09;
 	padding: 1%;
