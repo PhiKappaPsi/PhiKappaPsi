@@ -69,7 +69,7 @@
 		</main>
 		<footer>
 			<div id = "social-media">
-				<p href = "https://www.instagram.com/phipsiorbeta/?hl=en">insta</p>	
+				<a href = "https://www.instagram.com/phipsiorbeta/?hl=en">insta</a>	
 			</div>
 			<div id = "address">
 				Phi Kappa Psi - Oregon State University, 140 NW 13th St, Corvallis, OR, 97330, United States
