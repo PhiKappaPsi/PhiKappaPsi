@@ -5,6 +5,7 @@
 
 		<link rel = "stylesheet" href = "style.css" media = "screen">
 		<script src = "/index.js" charset = "utf-8" defer></script>
+		<script src="https://kit.fontawesome.com/09b08a9c7d.js" crossorigin="anonymous"></script>
 
 	</head>
 
@@ -69,7 +70,7 @@
 		</main>
 		<footer>
 			<div id = "social-media">
-				<a href = "https://www.instagram.com/phipsiorbeta/?hl=en">insta</a>	
+				<a href = "https://www.instagram.com/phipsiorbeta/?hl=en"><i class="fab fa-instagram"></i></a>
 			</div>
 			<div id = "address">
 				Phi Kappa Psi - Oregon State University, 140 NW 13th St, Corvallis, OR, 97330, United States
