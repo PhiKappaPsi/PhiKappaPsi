@@ -43,6 +43,11 @@ h2 {
 	color: white;
 }
 
+#main-photo-container {
+	position: relative;
+	text-align: center;
+}
+
 #main-photo {
 	width: -webkit-fill-available;
 	margin: -20% 0px -5% 0px;
