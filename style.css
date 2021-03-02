@@ -33,8 +33,9 @@ h2 {
 	padding: 1%;
 	font-size: 150%;
 	font-weight: bold;
-	position: relative;
-	bottom: 35px;
+	position: absolute;
+	top: 0px;
+	width: -webkit-fill-available;
 	z-index: 1;
 }
 
