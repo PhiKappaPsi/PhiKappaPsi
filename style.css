@@ -71,7 +71,7 @@ h2 {
 #content {
 	background-color: white;
 	position: absolute;
-	bottom: 60%;
+	top: 60%;
 	padding: 3% 12% 0% 12%;
 }
 
@@ -102,8 +102,8 @@ h2 {
 }
 
 footer {
-	position: relative;
-	top: 32px;
+	position: absolute;
+	bottom: 0;
 }
 
 #social-media {
