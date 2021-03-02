@@ -27,7 +27,7 @@
 				<div id = "blocks">
 					<div class = "block">
 						<img class = "block-photo" src="https://images.squarespace-cdn.com/content/v1/55dfc744e4b02e73a0725476/1451447659670-X6RDA4LS57LUEA7WVRUN/ke17ZwdGBToddI8pDm48kB_zLdHkF97iuaXf9U4Pyr17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4XabXLlNWpcJMv7FrN_NJ1zIoj4arv3T1JNI_9tGUhTGjS3ROJqeAbBF4fkEeD6w/IMG_9202.jpg">
-						<h3>News</h3>
+						<h3><a href = "news.html">News</a></h3>
 						<div class = "block-text">Get the latest Phi Psi updates, such as recruitment, philanthropy, intramural sports, and fraternity achievements</div>
 					</div>
 					<div class = "block">
