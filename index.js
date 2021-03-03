@@ -1,6 +1,6 @@
 var image_num = -1;
-var images = document.getElementsByClassName("slideshow");
-var navigation = document.getElementsByClassName("slideshow-navigation");
+var images;
+var navigation;
 
 function toggleView() {
 	console.log("image_num: ", image_num);
@@ -25,8 +25,11 @@ function navigate(event) {
 	event.stopPropagation();
 
 }
-
-for (var i = 0; i < images.length; i++) {
-	navigation[i].addEventListener('click', navigate);
-	console.log("event listener added");
+window.addEventListener('DOMContentLoaded', function () {
+	for (var i = 0; i < images.length; i++) {
+		navigation[i].addEventListener('click', navigate);
+		console.log("event listener added");
+	}	
+	images = document.getElementsByClassName("slideshow");
+	navigation = document.getElementsByClassName("slideshow-navigation");
 }
