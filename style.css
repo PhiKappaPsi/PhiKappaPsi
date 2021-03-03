@@ -124,10 +124,6 @@ footer {
 	text-align: center;
 }
 
-.officer {
-	color: grey;	
-}
-
 #address {
 	background-color: black;
 	color: #b7b7b7;
@@ -138,4 +134,10 @@ footer {
 .fa-instagram {
 	color: white;
 	font-size: 35px;
+}
+
+.officer {
+	color: #696969;
+	font-family: cursive;
+	font-size: 115%;
 }
