@@ -32,4 +32,4 @@ window.addEventListener('DOMContentLoaded', function () {
 	}	
 	images = document.getElementsByClassName("slideshow");
 	navigation = document.getElementsByClassName("slideshow-navigation");
-}
+})
