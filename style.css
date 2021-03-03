@@ -141,3 +141,24 @@ footer {
 	font-family: cursive;
 	font-size: 115%;
 }
+
+#slideshow-image-container {
+	display: flex;
+	justify-content: center;
+}
+
+#slideshow-navigation-menu {
+	display: flex;
+	height: 80px;
+	justify-content: center;
+	margin: 1% 0% 3% 0%;
+}
+
+.slideshow-navigation {
+	object-fit: contain;
+	filter: grayscale(0.7);
+}
+
+.slideshow-navigation:hover {
+	filter: none;	
+}
