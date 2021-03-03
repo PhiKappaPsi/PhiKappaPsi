@@ -26,10 +26,10 @@ function navigate(event) {
 
 }
 window.addEventListener('DOMContentLoaded', function () {
+	images = document.getElementsByClassName("slideshow");
+	navigation = document.getElementsByClassName("slideshow-navigation");
 	for (var i = 0; i < images.length; i++) {
 		navigation[i].addEventListener('click', navigate);
 		console.log("event listener added");
 	}	
-	images = document.getElementsByClassName("slideshow");
-	navigation = document.getElementsByClassName("slideshow-navigation");
 })
