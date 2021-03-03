@@ -8,6 +8,7 @@ function toggleView() {
 		images[i].style.display = 'none';
 	}
 	images[image_num].style.display = 'block';
+	console.log("toggleView complete");
 }
 
 function navigate(event) {
@@ -19,6 +20,7 @@ function navigate(event) {
 		}
 	}
 	image_num = val;
+	console.log(image_num);
 	toggleView();
 	event.stopPropagation();
 
@@ -26,4 +28,5 @@ function navigate(event) {
 
 for (var i = 0; i < images.length; i++) {
 	navigation[i].addEventListener('click', navigate);
+	console.log("event listener added");
 }
