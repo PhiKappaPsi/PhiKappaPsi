@@ -1,26 +1,29 @@
 var image_num = -1;
+var images = document.getElementsByClassName("slideshow");
+var navigation = document.getElementsByClassName("slideshow-navigation");
 
-function toggleBackView() {
+function toggleView() {
 	console.log("image_num: ", image_num);
-	document.getElementsByClassName("post-front")[image_num].style.display = 'none';
-	document.getElementsByClassName("post-back")[image_num].style.display = 'block';
+	for (var i = 0; i < images.length; i++) {
+		images[i].style.display = 'none';
+	}
+	images[image_num].style.display = 'block';
 }
 
-function itemInfoRequest(event) {
+function navigate(event) {
 	var val = 0;
 	for (var j = 0; j < images.length; j++) {
-		var image = images[j];
+		var image = navigation[j];
 		if(this.isSameNode(image)) {
 			val = j;
 		}
 	}
 	image_num = val;
-	toggleBackView();
+	toggleView();
 	event.stopPropagation();
 
 }
 
-var images = document.getElementsByClassName("post-front");
 for (var i = 0; i < images.length; i++) {
-	images[i].addEventListener('click', itemInfoRequest);
+	navigation[i].addEventListener('click', navigate);
 }
