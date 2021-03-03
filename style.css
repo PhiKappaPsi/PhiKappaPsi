@@ -8,6 +8,7 @@ body {
 
 a, a:hover, a:visited, a:active {
 	text-decoration: none;
+	color: #d73f09;
 }
 
 h3 {
