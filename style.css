@@ -142,7 +142,7 @@ footer {
 	font-size: 115%;
 }
 
-#slideshow-image-container {
+.slideshow-image-container {
 	display: flex;
 	justify-content: center;
 }
@@ -157,6 +157,7 @@ footer {
 .slideshow-navigation {
 	object-fit: contain;
 	filter: grayscale(0.7);
+	border: 1px solid white;
 }
 
 .slideshow-navigation:hover {
