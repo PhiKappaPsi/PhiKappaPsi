@@ -131,9 +131,17 @@ footer {
 	padding: 2%;
 }
 
+#address:hover {
+	color: white;	
+}
+
 .fa-instagram {
 	color: white;
 	font-size: 35px;
+}
+
+fa-instagram:hover {
+	font-size: 40px;	
 }
 
 .officer {
