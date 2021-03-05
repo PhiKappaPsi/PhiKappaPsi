@@ -136,12 +136,12 @@ footer {
 }
 
 .fa-instagram {
-	color: white;
+	color: black;
 	font-size: 35px;
 }
 
-fa-instagram:hover {
-	font-size: 40px;	
+.fa-instagram:hover {
+	color: white;	
 }
 
 .officer {
